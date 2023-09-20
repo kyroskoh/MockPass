@@ -4,6 +4,14 @@
 
 A mock SingPass/CorpPass/MyInfo server for dev purposes
 
+## Quick Start (on Docker)
+- Note: Default Port 5156 (Change the MOCKPASS_PORT to different port)
+- Launch your Docker Desktop
+- Open your Terminal or Powershell
+- Run `docker build -t mockpass .`
+- Run `docker run -d -p 5156:5156 mockpass:latest` or `docker run -d -p [MOCKPASS_PORT]:[MOCKPASS_PORT] mockpass:latest`
+
+
 ## Quick Start (hosted by Gitpod)
 
 - Click the ready-to-code badge above
